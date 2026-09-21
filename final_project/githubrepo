@@ -1,7 +1,6 @@
+curl -s https://api.github.com/repos/Chaitanya031/expressBookReviews | jq '{full_name: .full_name, fork: .fork, parent: .parent.full_name}'
+{
   "full_name": "Chaitanya031/expressBookReviews",
   "fork": true,
-  "parent": {
-    "full_name": "ibm-developer-skills-network/expressBookReviews",
-    "fork": false,
-    "full_name": "ibm-developer-skills-network/expressBookReviews",
-    "fork": false,
+  "parent": "ibm-developer-skills-network/expressBookReviews"
+}
