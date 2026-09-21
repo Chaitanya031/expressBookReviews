@@ -1,2 +1,2 @@
-curl -X PUT http://localhost:5000/customer/auth/review/1 -H "Content-Type: application/json" -H "Authorization: Bearer PASTE_TOKEN" -d '{"review":"Excellent book"}'
-{"message":"Invalid token"}
+curl -X PUT http://localhost:5000/customer/auth/review/1 -H "Content-Type: application/json" -H "Authorization: Bearer YOUR_TOKEN" -d '{"review":"Excellent book"}'
+{"message":"Review added/updated successfully","reviews":{"chaitanya2":"Excellent book"}}
